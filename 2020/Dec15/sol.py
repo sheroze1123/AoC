@@ -13,9 +13,6 @@ idx = 8
 nn = 0
 
 while idx < 30000000:
-    #  print(nn)
-    if idx % 10000 == 0:
-        print(nn)
     if nn in d:
         tmp = d[nn]
         d[nn] = idx
